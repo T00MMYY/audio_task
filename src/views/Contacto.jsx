@@ -8,7 +8,6 @@ function Contacto() {
   const handleChange = (e) => {
     const { id, value } = e.target
     setFormData({ ...formData, [id]: value })
-    // Clear error on change
     if (errors[id]) {
       setErrors({ ...errors, [id]: '' })
     }
@@ -35,7 +34,7 @@ function Contacto() {
   const handleSubmit = (e) => {
     e.preventDefault()
     if (validate()) {
-      alert('¡Gracias por tu participación! Tu mensaje y audio han sido enviados (simulación).')
+      alert('Mensaje enviado')
     }
   }
 

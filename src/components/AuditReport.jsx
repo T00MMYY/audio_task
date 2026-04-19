@@ -91,17 +91,17 @@ function AuditReport() {
   }
 
   return (
-    <div className="fixed bottom-4 right-4 bg-white p-4 border rounded shadow-lg">
+    <div className="fixed bottom-4 right-4 bg-white p-4 border border-slate-200 rounded-2xl shadow-xl shadow-slate-200/50">
       <button
         onClick={runAudit}
-        className="bg-green-600 text-white px-4 py-2 rounded mr-2 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+        className="bg-green-600 text-white px-4 py-2 rounded-full mr-2 shadow-lg shadow-green-200/40 transition-colors duration-200 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-white"
       >
         Ejecutar Auditoría
       </button>
       {report && (
         <button
           onClick={generatePDF}
-          className="bg-blue-600 text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+          className="bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg shadow-blue-200/40 transition-colors duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-white"
           aria-label="Descargar informe en PDF"
         >
           Descargar informe en PDF
