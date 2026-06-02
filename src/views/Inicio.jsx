@@ -5,7 +5,7 @@ function Inicio() {
     <section id="home" className="max-w-5xl mx-auto p-8">
       <div className="flex flex-col md:flex-row items-center gap-10 mb-12">
         <img
-          src="/images/peakyBlinders.jpg"
+          src="/images/serie.jpg"
           alt="Series de TV"
           className="w-64 h-64 object-cover rounded-lg shadow-md"
         />
@@ -24,7 +24,7 @@ function Inicio() {
         <p className="text-gray-500 mb-4">"Las mejores series de 2024 hasta ahora"</p>
 
         <audio controls className="w-full">
-          <source src="" type="audio/mpeg" />
+          <source src="/audio/audioPrincipal.mp3" type="audio/mpeg" />
           Tu navegador no soporta el audio.
         </audio>
       </div>

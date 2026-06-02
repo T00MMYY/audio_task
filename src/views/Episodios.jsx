@@ -15,7 +15,7 @@ function Episodios() {
               <h3 className="font-semibold text-lg">Análisis: El éxito de "The Last of Us"</h3>
             </div>
             <audio controls className="w-full">
-              <source src="" type="audio/mpeg" />
+              <source src="/audio/theLastOfUs.mp3" type="audio/mpeg" />
               Tu navegador no soporta el audio.
             </audio>
           </div>
@@ -28,7 +28,7 @@ function Episodios() {
               <h3 className="font-semibold text-lg">Series que marcaron una época</h3>
             </div>
             <audio controls className="w-full">
-              <source src="" type="audio/mpeg" />
+              <source src="/audio/theLastOfUs.mp3" type="audio/mpeg" />
               Tu navegador no soporta el audio.
             </audio>
           </div>
@@ -43,11 +43,9 @@ function Episodios() {
             <div>
               <h4 className="font-semibold text-indigo-600 mb-2">Proceso de Grabación y Edición</h4>
               <p className="text-slate-700 text-sm leading-relaxed">
-                Para lograr un sonido profesional, se realizó una grabación de voz limpia en{' '}
-                <strong>Audacity</strong>
-                Se aplicó una <strong>Reducción de Ruido</strong> para eliminar el siseo de fondo y
-                se utilizó la herramienta
-                <strong>Auto Duck</strong> para que la música bajara automáticamente de volumen
+                Para lograr un sonido profesional, se realizó una grabación de voz 
+                limpia en{' '} <strong>Audacity</strong> Se aplicó una <strong>Reducción de Ruido</strong> para eliminar el siseo de fondo y
+                se utilizó la herramienta <strong>Auto Duck</strong> para que la música bajara automáticamente de volumen
                 durante las intervenciones de voz.
               </p>
             </div>
