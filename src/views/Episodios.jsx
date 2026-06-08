@@ -59,9 +59,6 @@ function Episodios() {
                 <li>
                   <strong>FFmpeg:</strong> Optimización de archivos para la web.
                 </li>
-                <li>
-                  <strong>Librerías CC:</strong> Música de fondo con licencias libres.
-                </li>
               </ul>
             </div>
           </div>
